@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.todo-form {
+  margin-top: 2%;
+}
+.todo-form label {
+  font-size: 2em;
+}
+.todo-form input {
+  font-size: 1.5em;
+  margin-top: 2%;
+}
+.todo-form button {
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 1.25em;
+  padding: 1%;
+  margin-top: 2%;
+  border-radius: 10%;
+  box-shadow: #607D8B 1px 1px;
+}
+.todo-items li {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+.todo-items li:hover {
+  cursor: pointer;
+}
+#clear {
+  background-color: #F44336;
+  color: white;
+}
